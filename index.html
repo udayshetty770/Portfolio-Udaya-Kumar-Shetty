@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coder Vibe | Udaya Kumar Shetty</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://img.icons8.com/fluency/48/code.png" type="image/png">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .container {
+      background-color: rgba(255, 255, 255, 0.06);
+      border-radius: 20px;
+      padding: 50px 40px;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.5);
+      text-align: center;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      color: #00ffae;
+      letter-spacing: 1px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #d1faff;
+      font-style: italic;
+    }
+    .typing {
+      font-weight: 600;
+      color: #00ffae;
+      border-right: 2px solid #00ffae;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: rgba(0, 255, 174, 0.1);
+      color: #00ffae;
+      border: 1px solid #00ffae;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .link i {
+      font-size: 18px;
+    }
+    .link:hover {
+      background: #00ffae;
+      color: #000;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00ffae;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 35px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Udaya Kumar Shetty</h1>
+    <div class="tagline typing">Crafting Code, Creating Impact. . . .</div>
+
+    <div class="links">
+      <a class="link" href="https://udayshetty770.github.io/Portfolio-Udaya-Kumar-Shetty-/" target="_blank">
+        <i class="fas fa-globe"></i> Portfolio
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/udaya-kumar-shetty-093835268/" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a class="link" href="https://github.com/udayshetty770" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a class="link" href="https://leetcode.com/u/Uday_shetty770/" target="_blank">
+        <i class="fas fa-code"></i> LeetCode
+      </a>
+      <a class="link" href="https://www.instagram.com/uday_shetty770" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      
+    </div>
+  </div>
+</body>
+</html>
